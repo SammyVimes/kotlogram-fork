@@ -1,6 +1,7 @@
 package ru.sofitlabs.telegram;
 
 import org.jetbrains.annotations.NotNull;
+import ru.sofitlabs.telegram.transport.MTProtoConnection;
 
 /**
  * Created by Semyon on 23.02.2017.
@@ -48,4 +49,10 @@ public class DataCenter {
         result = 31 * result + port;
         return result;
     }
+
+    @NotNull
+    public static DataCenter getDataCenter(MTProtoConnection connection) {
+        return new DataCenter(connection.getIp(), connection.getPort());
+    }
+
 }

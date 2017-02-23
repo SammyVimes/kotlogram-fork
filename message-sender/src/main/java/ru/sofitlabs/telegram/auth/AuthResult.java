@@ -1,6 +1,7 @@
 package ru.sofitlabs.telegram.auth;
 
 import org.jetbrains.annotations.NotNull;
+import ru.sofitlabs.telegram.transport.MTProtoConnection;
 
 /**
  * Created by Semyon on 23.02.2017.
