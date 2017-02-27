@@ -18,8 +18,8 @@ import java.nio.charset.Charset;
 public final class C {
 
     // Get them from Telegram's console
-    public static final int API_ID = 0;
-    public static final String API_HASH = "<YOUR_HASH_HERE>";
+    public static final int API_ID = 64122;
+    public static final String API_HASH = "e0a4f179b681f6f69ae8e3519fb051e0";
 
     // What you want to appear in the "all sessions" screen
     public static final String APP_VERSION = "AppVersion";
@@ -30,7 +30,7 @@ public final class C {
     public static TelegramApp application = new TelegramApp(API_ID, API_HASH, MODEL, SYSTEM_VERSION, APP_VERSION, LANG_CODE);
 
     // Phone number used for tests
-    public static final String PHONE_NUMBER = "+00000000000"; // International format
+    public static final String PHONE_NUMBER = "+79218711725"; // International format
 
     public static final File ROOT_DIR = new File("sample" + File.separator);
     public static final File AUTH_KEY_FILE = new File(ROOT_DIR, "auth.key");
